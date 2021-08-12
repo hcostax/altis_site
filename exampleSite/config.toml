@@ -1,6 +1,6 @@
 baseURL = "www.example.com"
-languageCode = "en-us"
-title = "Hugo Serif Theme"
+languageCode = "pt-br"
+title = "ALTIS CONSULTORIA"
 themesDir = "../.."
 theme = "hugo-serif-theme"
 
@@ -23,11 +23,11 @@ theme = "hugo-serif-theme"
     mobile_height = "36px"
     desktop = "images/logo/logo.svg"
     desktop_height = "36px"
-    alt = "Serif - A Hugo Business Theme"
+    alt = "ALTIS CONSULTORIA"
 
   [params.seo]
-    meta_twitter_site = "@zerostaticio"
-    meta_twitter_creator = "@zerostaticio"
+    meta_twitter_site = "@hcostax"
+    meta_twitter_creator = "@hcostax"
 
   [params.team]
     summary_large_truncate = 120  # How many characters to include in the summary of the team bios (large layout) before truncating
@@ -38,32 +38,32 @@ theme = "hugo-serif-theme"
 [menu]
   # Main Menu
   [[menu.main]]
-    name = "Services"
+    name = "Serviços"
     url = "/services/"
       weight = 1
 
   [[menu.main]]
-      name = "Team"
+      name = "Equipe"
       url = "/team/"
       weight = 2
 
   [[menu.main]]
-      name = "About"
+      name = "Sobre"
       url = "/about/"
       weight = 3
 
   [[menu.main]]
-      name = "Contact"
+      name = "Contato"
       url = "/contact/"
       weight = 4
 
   # Footer Menu
   [[menu.footer]]
-    name = "Home"
+    name = "Início"
     url = "/"
       weight = 1
 
   [[menu.footer]]
-    name = "Contact"
+    name = "Contato"
     url = "/contact/"
       weight = 2
